@@ -29,8 +29,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+    
         <p>
-          <code>{count}</code> pangram{count > 1 ? "s" : ""} today!
+          Thank you for visiting! Have a great day. 
+        </p>
+        <p>
+              <code>{count}</code> pangram{count > 1 ? "s" : ""} today!
         </p>
         <a
           className="App-link"
@@ -38,7 +42,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          View the answers at nytbee.com
+          View the answers and analysis at nytbee.com
         </a>
       </header>
     </div>
